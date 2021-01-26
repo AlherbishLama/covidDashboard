@@ -1,0 +1,67 @@
+ *:before, *:after {
+  box-sizing: content-box;
+}
+
+input[type=number] ,select {
+  width: 20%;
+  padding: 3px 10px;
+  margin: 4px 10px;
+  border:none;
+  border-bottom: 1px solid #1890ff;
+  box-sizing: border-box;
+  background: white;
+  outline: none;
+  text-align: center;
+}
+
+
+.form-div{
+  position: relative;
+}
+
+.form_data , .edit_form_data{
+  margin-top: 20px;
+}
+
+.form_countries_data #country {
+  width: 20%;
+  font-size: inherit;
+
+}
+
+/* to remove arrows from input type number */
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+
+/* Flash Message style */
+
+/* Icons */
+@import url('//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css');
+
+.success-msg,
+.error-msg {
+  position: relative;
+  margin: 20px 0;
+  padding: 10px;
+  border-radius: 3px 3px 3px 3px;
+}
+
+.success-msg {
+  color: #270;
+  background-color: #DFF2BF;
+}
+
+.error-msg {
+  color: #D8000C;
+  background-color: #FFBABA;
+}
